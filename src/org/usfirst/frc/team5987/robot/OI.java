@@ -38,4 +38,3 @@ public class OI {
 	Joystick rightStick = new Joystick(0);
 	Joystick leftStick = new Joystick(1);
 }
-
