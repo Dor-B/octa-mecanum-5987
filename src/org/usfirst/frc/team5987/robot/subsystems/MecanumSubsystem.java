@@ -12,7 +12,7 @@ public class MecanumSubsystem extends Subsystem {
     
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
-	RobotDrive mecanum=new RobotDrive(RobotMap.leftFrontMotor, RobotMap.leftBackMotor, RobotMap.rightFrontMotor, RobotMap.rightBackMotor);
+	RobotDrive mecanum=new RobotDrive(RobotMap.mecLeftFrontMotor, RobotMap.mecLeftBackMotor, RobotMap.mecRightFrontMotor, RobotMap.mecRightBackMotor);
 
     public void initDefaultCommand() {
         // Set the default command for a subsystem here.
