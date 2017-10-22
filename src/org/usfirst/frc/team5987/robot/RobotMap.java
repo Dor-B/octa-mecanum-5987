@@ -12,8 +12,14 @@ public class RobotMap {
 
     // public static int leftMotor = 1;
     // public static int rightMotor = 2;
-    public static int rightPiston = 0;
-    public static int leftPiston = 1;
+    /**
+     * Right piston port.
+     */
+	public static int rightPiston = 0;
+	/**
+     * Left piston port.
+     */
+	public static int leftPiston = 1;
 
     public static int mecLeftFrontMotor = 1;
     public static int mecLeftBackMotor = 2;
