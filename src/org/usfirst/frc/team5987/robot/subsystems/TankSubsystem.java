@@ -79,51 +79,7 @@ public class TankSubsystem extends Subsystem {
      * turns the robot in place 
      * @param if positive, turn right, else turns left (range of -1 to 1)
      */
-    public void turnInPlace(double speed){
-    	setLeft(speed);
-    	setRight(-speed);
-    }
-    /**
-     * turn right the robot in place
-     * @param speed for turning (-1 < speed < 1)
-     */
-    public void turnRight(double speed){
-    	turnInPlace(speed);
-    }
-    
-    /**
-     * turn left the robot in place
-     * @param speed for turning (-1 < speed < 1)
-     */
-    public void turnLeft(double speed){
-    	turnInPlace(-speed);
-    }
-    
-    /**
-     * move the robot forward
-     * @param speed for moving (-1 < speed < 1)
-     */
-    public void forward(){
-    	setLeft(1);
-    	setRight(1);
-    }
-    
-    /**
-     * move the robot backwards
-     * @param speed for moving (-1 < speed < 1)
-     */
-    public void backwards(){
-    	setLeft(-1);
-    	setRight(-1);
-    }
-    
-    /**
-     * stop the robot (set the speed of all motors to 0)
-     */
-    public void stop(){
-    	setLeft(0);
-    	setRight(0);
-    }
+   
     
     public  double getLeftEncoder() {
     	
